@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // required by inversify
+    // https://github.com/CKGrafico/inversify-hooks#you-can-also-use-any-id-that-you-prefer
+    "target": "ES2017",
+    "lib": ["ES2017", "DOM"],
+    "types": ["reflect-metadata"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules", "./**/*.js", "./**/*.cjs"]
+}

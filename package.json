@@ -1,0 +1,14 @@
+{
+  "name": "vite-sample",
+  "version": "1.0.0",
+  "description": "It's a sample for vite issue",
+  "main": "index.ts",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^18.2.0",
+    "@types/react": "^18.0.17",
+    "react-dom": "^18.2.0"
+  }
+}
